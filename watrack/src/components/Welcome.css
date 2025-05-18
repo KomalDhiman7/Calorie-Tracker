@@ -1,0 +1,56 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6dd5fa 0%, #2980b9 100%);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 280px;
+}
+
+.welcome-input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+.welcome-input::placeholder {
+  color: #ddd;
+}
+
+.welcome-btn {
+  padding: 12px;
+  background-color: #ff6b6b;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-btn:hover {
+  background-color: #ff4757;
+}
+
+/* Mobile friendly */
+@media (max-width: 400px) {
+  .welcome-form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,46 @@
+.tracker-container {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #f2f9ff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  background: #00c6ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0099cc;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  background: #ff4d4d;
+}
+
+.reset-btn:hover {
+  background: #e60000;
+}

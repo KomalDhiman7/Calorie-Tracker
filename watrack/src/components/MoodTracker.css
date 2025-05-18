@@ -1,0 +1,38 @@
+.mood-card {
+  background-color: #1a1f2b;
+  border-radius: 20px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.mood-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.mood-btn {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 2px solid #555;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mood-btn:hover,
+.mood-btn.active {
+  background-color: #ff7eb9;
+  border-color: #ff7eb9;
+  color: white;
+}
+
+.mood-status {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #ccc;
+}
